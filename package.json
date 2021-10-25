@@ -1,0 +1,27 @@
+{
+  "name": "node-express-calculator",
+  "version": "1.0.0",
+  "description": "A rest api offering basic math operations",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Konstantin-tr/Node-Express-Calculator.git"
+  },
+  "keywords": [
+    "express",
+    "maths"
+  ],
+  "author": "Konstantin-tr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Konstantin-tr/Node-Express-Calculator/issues"
+  },
+  "homepage": "https://github.com/Konstantin-tr/Node-Express-Calculator#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
