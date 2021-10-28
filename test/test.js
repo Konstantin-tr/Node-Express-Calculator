@@ -11,4 +11,13 @@ describe("Maths", function () {
       }
     });
   });
+  describe("#minus()", function () {
+    it("should return difference between two values", function () {
+      for (var i = 0; i < 100; i++) {
+        for (var j = 0; j < 100; j++) {
+          assert.equal(maths.minus(i, j), i - j);
+        }
+      }
+    });
+  });
 });
