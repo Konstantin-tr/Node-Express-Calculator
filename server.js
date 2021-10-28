@@ -1,5 +1,5 @@
 const express = require("express");
-const appControllers = require("./src/AppControllers.js");
+const appControllers = require("./src/AppControllers");
 const app = express();
 const port = 8080;
 

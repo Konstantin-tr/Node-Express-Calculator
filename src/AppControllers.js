@@ -1,4 +1,4 @@
-var maths = require(".\\MathsModule.js");
+var maths = require("./MathsModule");
 
 exports.mapControllers = function (app) {
   mapIndex(app);
