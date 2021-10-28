@@ -1,5 +1,5 @@
 var assert = require("assert");
-var maths = require("../src/MathsModule.");
+var maths = require("../src/MathsModule");
 
 describe("Maths", function () {
   describe("#add()", function () {
