@@ -10,7 +10,7 @@ function mapAdd(app) {
     var value1 = parseInt(req.params.val1);
     var value2 = parseInt(req.params.val2);
 
-    var result = maths.add(value1, value2);
+    var result = maths.plus(value1, value2);
 
     res.send("" + result);
   });
